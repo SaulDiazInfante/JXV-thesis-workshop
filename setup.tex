@@ -1,0 +1,153 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\def\Q#1#2{\frac{\partial #1}{\partial #2}}
+\usetikzlibrary{arrows,shapes}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%------------------------------------Theorems 
+\theoremstyle{plain} % default
+\newtheorem{Teorema}{Teorema}
+\newtheorem{Ejemplo}{Ejemplo}
+\theoremstyle{definition}
+\newtheorem{Definicion}{Definici\'on}
+\newtheorem{Corolario}{Corolario}
+\newtheorem{Proposicion}{Proposici\'on}
+\newtheorem{Prueba}{Prueba}
+\theoremstyle{definition}
+\newtheorem{definicion}{Definici\'on}
+\newtheorem{lema}{Lema}
+%-----------------------------ExtrasDeTercerPresentacion
+%--------------------------------Fancyboxes-------------------------------------
+\definecolor{myblue}{rgb}{.8, .8, 1}
+\definecolor{shadecolor}{cmyk}{0,0,0.41,0}
+\newcommand*\mybluebox[1]{%
+    \colorbox{myblue}{\hspace{1em}#1\hspace{1em}}
+}
+\newcommand*\myyellowbox[1]{%
+    \colorbox{darkyellow}{\hspace{1em}#1\hspace{1em}}
+}
+%--------------------------------------------------------------------------
+\definecolor{shadecolor}{cmyk}{0,0,0.41,0}
+\definecolor{light-blue}{cmyk}{0.25,0,0,0}
+\newsavebox{\mysaveboxM} % M for math
+\newsavebox{\mysaveboxT} % T for text
+\newcommand*\Garybox[2][Example]{%
+    \sbox{\mysaveboxM}{#2}%
+        \sbox{\mysaveboxT}{\fcolorbox{black}{light-blue}{#1}}%
+            \sbox{\mysaveboxM}{%
+    \parbox[b][\ht\mysaveboxM+.5\ht\mysaveboxT+.5\dp\mysaveboxT][b]{%
+        \wd\mysaveboxM}{#2}%
+    }%
+    \sbox{\mysaveboxM}{%
+        \fcolorbox{black}{shadecolor}{%
+        \makebox[\linewidth-10em]{\usebox{\mysaveboxM}}%
+        }%
+    }%
+    \usebox{\mysaveboxM}%
+    \makebox[0pt][r]{%
+        \makebox[\wd\mysaveboxM][c]{%
+            \raisebox{\ht\mysaveboxM-0.5\ht\mysaveboxT
+            +0.5\dp\mysaveboxT-0.5\fboxrule}{\usebox{\mysaveboxT}}%
+        }%
+    }%
+}
+\newcommand\Fontvi{\fontsize{7}{7.2}\selectfont}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\definecolor{kugreen}{RGB}{50,93,61}
+\definecolor{kugreenlys}{RGB}{132,158,139}
+\definecolor{kugreenlyslys}{RGB}{173,190,177}
+\definecolor{kugreenlyslyslys}{RGB}{214,223,216}
+\definecolor{greenArea}{RGB}{124,252,124}
+\definecolor{hellmagenta}{rgb}{1,0.75,0.9}
+\definecolor{hellcyan}{rgb}{0.75,1,0.9}
+\definecolor{hellgelb}{rgb}{1,1,0.8}
+\definecolor{colKeys}{rgb}{0,0,1}
+\definecolor{colIdentifier}{rgb}{0,0,0}
+\definecolor{colComments}{rgb}{1,0,0}
+\definecolor{colString}{rgb}{0,0.5,0}
+\definecolor{darkyellow}{rgb}{1,0.9,0}
+\setbeamercovered{transparent}
+\lstset{%
+    language=[AlLaTeX]TEX,%
+    float=hbp,%
+    basicstyle=\ttfamily\small, %\usepackage{cir}
+    identifierstyle=\color{colIdentifier}, %
+    keywordstyle=\color{colKeys}, %
+    stringstyle=\color{colString}, %
+    commentstyle=\color{colComments}, %
+    columns=flexible, %
+    tabsize=3, %
+    frame=single, %
+    extendedchars=true, %
+    showspaces=false, %
+    showstringspaces=false, %
+    numbers=left, %
+    numberstyle=\tiny, %
+    breaklines=true, %
+    backgroundcolor=\color{hellgelb}, %
+    breakautoindent=true, %
+    captionpos=b,%
+    xleftmargin=18pt,%
+    xrightmargin=\fboxsep%
+}
+\pgfplotsset{
+    left segments/.code={\pgfmathsetmacro\leftsegments{#1}},
+    left segments=3,
+    left/.style args={#1:#2}{
+        ybar interval,
+        domain=#1:#2,
+        samples=\leftsegments+1,
+        x filter/.code=\pgfmathparse{\pgfmathresult}
+       }
+}
+\DeclareMathOperator{\sign}{sgn}
+\newcommand{\innerprod}[2]{\left\langle#1, #2\right\rangle}
+\newcommand\bound{10} % bound number of points on each side of N
+\newcommand\labelnum[3][]{
+    \begin{scope}[font=\footnotesize,x=.3cm,#1]
+      \foreach \mypt in {0,#2,...,\bound}{
+        \draw(\mypt,0)circle[radius=2pt];
+        \draw(-\mypt,0)circle[radius=2pt];
+      }
+      \draw(-\bound-5,0)--(\bound+5,0) node[pos=0, left]{$t$};
+      \node(start)[at={(-\bound-4,0)},label=below:{$t_0=0$}]{$[$};
+      \node(end)[at={(\bound+4,0)},label=below:{$T=Nh$}]{$]$};
+      \node[%
+          at={($(start)!.319!(end)$)},
+          label=below:{
+               $\underbrace{}_{h}$
+            }%
+            ]{\vphantom{$[$}};
+      \node[at={($(start)!.57!(end)$)},label=below:{$t_{n+1}$}]{\vphantom{$[$}};
+      \filldraw(0,0)circle[radius=2pt];
+      \node[at={(-\bound-2,0)},above]{$\cdots$};
+      \node[at={(\bound+2,0)},above]{$\cdots$};
+      \node[at={(0,0)},above=5pt]{#3};
+    \end{scope}
+}
+\tcbuselibrary{skins, breakable}
+%
+\newtcolorbox{greenbox}[1]{%
+        colback = green!5!white,
+        colframe = green!55!black,
+        fonttitle = \bfseries,
+        title = #1
+    }
+\newtcolorbox{bluebox}[1]{%
+        colback = blue!5!white,
+        colframe = blue!55!black,
+        fonttitle = \bfseries,
+        title = #1
+    }
+%
+\newtcolorbox{graybox}[1]{%
+        colback = gray!5!white,
+        colframe = gray!55!black,
+        fonttitle = \bfseries,
+        title = #1
+    }
+%
+\newtcolorbox{yellowbox}[1]{%
+        colback = yellow!5!white,
+        colframe = yellow!55!black,
+        fonttitle = \bfseries,
+        title = #1
+    }

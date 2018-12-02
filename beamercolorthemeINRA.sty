@@ -1,0 +1,53 @@
+\ProvidesPackage{beamercolorthemeINRA}[2013/02/10]
+% Beamer theme by François Guillaume
+% 
+% based on the LaTeX-Beamer package :
+% Copyright 2003 by Till Tantau <tantau@users.sourceforge.net>
+%
+% This program can be redistributed and/or modified under the terms
+% of the GNU Public License, version 2.
+
+\makeatletter
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% Some color definitions...
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%Couleurs institutionnelles
+\definecolor{INRA@linst}{RGB}{188,214,49}
+\definecolor{INRA@dinst}{RGB}{139,172,33}
+%Agriculture
+\definecolor{INRA@lagr}{RGB}{244,125,32} % plus ou moins orange
+%\definecolor{INRA@dagr}{RGB}{109,70,53}
+%%Environnement
+\definecolor{INRA@lenv}{RGB}{42,162,224} % entre bleu et azur
+%\definecolor{INRA@denv}{RGB}{1,63,78}
+%%Alimentation
+\definecolor{INRA@lali}{RGB}{237,26,92} % entre rose et violet
+%\definecolor{INRA@lali}{RGB}{123,41,70}
+%
+%=======================================================================
+\mode<presentation>
+
+%\setbeamercolor{structure}{fg=INRA@dinst,bg=INRA@dinst}
+\setbeamercolor{structure}{fg=INRA@dinst}
+
+\setbeamercolor{section in head/foot}{fg=white}
+\setbeamercolor{headline}{fg=white,bg=INRA@dinst}
+%
+\setbeamercolor{alerted text}{fg=white!20!INRA@lali,bg=white}
+\setbeamercolor{example text}{fg=white!20!INRA@dinst,bg=white}
+\setbeamercolor{block text}{fg=white!20!INRA@lenv,bg=white}
+%
+\setbeamercolor{block title}{fg=INRA@lenv,bg=INRA@lenv!10!bg}
+\setbeamercolor{block title alerted}{fg=INRA@lali,bg=INRA@lali!10!bg}
+\setbeamercolor{block title example}{fg=INRA@dinst,bg=INRA@dinst!10!bg}
+%
+% \setbeamercolor{title}{fg=INRA@dinst}
+% \setbeamercolor{subtitle}{parent=title,fg=INRA@linst}
+
+\mode<all>
+
+\makeatother

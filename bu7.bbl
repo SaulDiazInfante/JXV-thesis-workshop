@@ -1,0 +1,10 @@
+ \newcommand{\noop}[1]{}
+\begin{thebibliography}{}
+
+\bibitem[Ma et~al., 2017]{Ma2017}
+Ma, Y., Zhang, Q., and Ye, M. (2017).
+\newblock Mean-square dissipativity of numerical methods for a class of
+  resource-competition models with fractional brownian motion.
+\newblock {\em Systems Science \& Control Engineering}, 5(1):268--277.
+
+\end{thebibliography}

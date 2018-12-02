@@ -1,0 +1,116 @@
+\begin{frame}
+    \frametitle{Alternativas}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    \begin{textblock*}{50mm}(3mm, 18mm)
+        \begin{bluebox}{Modelos}
+            \begin{itemize}
+                \item
+                    \textcolor<1>{orange}{(D/C)--TMCs}
+                \item
+                    \textcolor<2,3,4,5,7>{orange}{
+                    \textbf<4-5,7>{%
+                        Perturbación de parámetros
+                    }
+                }
+                \begin{itemize}
+                    \item
+                        \textcolor<4>{orange}{
+                            Procesos
+                            reversibles
+                            en media
+                        }
+                    \item
+                        \textcolor<5>{orange}{
+                            $
+                                \beta_t^H \ H \in (\num{.5}, 1)
+                            $
+                        }
+                \end{itemize}
+                \item
+                    \textcolor<6>{orange}{
+                        Random Diff. Eq.
+                    }
+            \end{itemize}
+        \end{bluebox}
+    \end{textblock*}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+   \begin{textblock*}{72mm}(55mm, 18mm)
+       \begin{graybox}
+            {%
+                \only<1>{%
+                    $\mathbf{MC}
+                    +\mathbf{ME}$
+                    $\to$ $SDE$%
+                }%
+                \only<2>{%
+                    $\varphi dt \rightsquigarrow \varphi dt+ \sigma dB_t$%
+                }%
+                \only<3>{%
+                    $\varphi dt \rightsquigarrow \varphi dt+F(x)dB_t$%
+                }%
+                \only<4-5>{%
+                    $d
+                        \varphi_t =
+                        (\varphi_e - \varphi_t) dt
+                        + \sigma_\varphi dBt
+                    $%
+                }%
+                \only<6>{%
+                    parametros son v.a.
+                }%
+                \only<7>{%
+                    $\varphi dt \rightsquigarrow \varphi dt+ \sigma dB_t$%
+                }%
+            }%Block titles
+            \only<1>{
+                \begin{bibunit}[abbrv]
+                    \nocite{Allen2017}
+                    \putbib
+                \end{bibunit}
+            }
+            \only<2,7>{
+                \begin{bibunit}[apalike]
+                    \nocite{Gray2011}
+                    \putbib
+                \end{bibunit}
+            }
+            \only<3>{
+                \begin{bibunit}[apalike]
+                    \nocite{Schurz2015}
+                    \putbib
+                \end{bibunit}
+            }
+            \only<4>{
+                \begin{bibunit}[apalike]
+                    \nocite{Allen2016}
+                    \putbib
+                \end{bibunit}
+            }
+            \only<5>{
+                \begin{bibunit}[apalike]
+                    \nocite{Ma2017}
+                    \putbib
+                \end{bibunit}
+            }
+            \only<6>{
+                \begin{bibunit}[apalike]
+                    \nocite{Chen-Charpentier2015}
+                    \putbib
+                \end{bibunit}
+            }
+        \end{graybox}
+   \end{textblock*}
+   \begin{textblock*}{50mm}(3mm, 68mm)
+        \begin{greenbox}{Herramientas}
+            \begin{list}{\bullet}{}
+                \item
+                    Gillespie
+                \item
+                    \small{Kloeden}-\normalsize{Methods}
+                \item
+                    Hermite-PC
+            \end{list}
+        \end{greenbox}
+    \end{textblock*}
+\end{frame}
+

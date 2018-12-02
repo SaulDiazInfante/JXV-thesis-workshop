@@ -1,0 +1,10 @@
+ \newcommand{\noop}[1]{}
+\begin{thebibliography}{}
+
+\bibitem[Schurz and Tosun, 2015]{Schurz2015}
+Schurz, H. and Tosun, K. (2015).
+\newblock {Stochastic Asymptotic Stability of SIR Model with Variable Diffusion
+  Rates}.
+\newblock {\em Journal of Dynamics and Differential Equations}, 27(1):69--82.
+
+\end{thebibliography}

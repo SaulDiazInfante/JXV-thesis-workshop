@@ -1,0 +1,11 @@
+ \newcommand{\noop}[1]{}
+\begin{thebibliography}{}
+
+\bibitem[Chen-Charpentier et~al., 2015]{Chen-Charpentier2015}
+Chen-Charpentier, B.-M., Cortés, J.-C., Licea, J.-A., Romero, J.-V., Roselló,
+  M.-D., Santonja, F.-J., and Villanueva, R.-J. (2015).
+\newblock Constructing adaptive generalized polynomial chaos method to measure
+  the uncertainty in continuous models: A computational approach.
+\newblock {\em Mathematics and Computers in Simulation}, 109:113 -- 129.
+
+\end{thebibliography}

@@ -1,0 +1,10 @@
+ \newcommand{\noop}[1]{}
+\begin{thebibliography}{1}
+
+\bibitem{Allen2017}
+L.~J. Allen.
+\newblock {A primer on stochastic epidemic models: Formulation, numerical
+  simulation, and analysis}.
+\newblock {\em Infectious Disease Modelling}, 2(2):128--142, may 2017.
+
+\end{thebibliography}

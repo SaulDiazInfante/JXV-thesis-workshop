@@ -1,0 +1,10 @@
+ \newcommand{\noop}[1]{}
+\begin{thebibliography}{}
+
+\bibitem[Allen, 2016]{Allen2016}
+Allen, E. (2016).
+\newblock {Environmental variability and mean-reverting processes}.
+\newblock {\em Discrete and Continuous Dynamical Systems - Series B},
+  21(7):2073--2089.
+
+\end{thebibliography}

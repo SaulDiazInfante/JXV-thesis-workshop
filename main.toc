@@ -1,0 +1,5 @@
+\select@language {spanish}
+\beamer@sectionintoc {1}{Introducci\'on}{2}{0}{1}
+\beamer@sectionintoc {2}{Perturbaci\'on con MB}{23}{0}{2}
+\beamer@sectionintoc {3}{Propiedades del proceso souluci\'on}{24}{0}{3}
+\beamer@sectionintoc {4}{ Umbral: $ \mathcal {R}_0^S:= \mathcal {R}_0^D - f(\text {noise}) $ }{25}{0}{4}

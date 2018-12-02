@@ -1,0 +1,10 @@
+\frametitle{Itroducci\'on}
+You need a \hl{style/images} directory
+        with these files inside:
+        \begin{itemize}
+            \item background-section.pdf
+            \item background-slide.pdf
+            \item background-title.pdf
+            \item logo.png
+        \end{itemize}
+\beamerclosesubstitutedenvironement {xframe}

@@ -1,0 +1,9 @@
+ \newcommand{\noop}[1]{}
+\begin{thebibliography}{}
+
+\bibitem[Gray et~al., 2011]{Gray2011}
+Gray, A., Greenhalgh, D., Hu, L., Mao, X., and Pan, J. (2011).
+\newblock {A Stochastic Differential Equation SIS Epidemic Model}.
+\newblock {\em SIAM Journal on Applied Mathematics}, 71(3):876--902.
+
+\end{thebibliography}

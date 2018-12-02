@@ -1,0 +1,11 @@
+ \newcommand{\noop}[1]{}
+\begin{thebibliography}{}
+
+\bibitem[Zhang et~al., 2018]{Zhang2018a}
+Zhang, Y., Li, Y., Zhang, Q., and Li, A. (2018).
+\newblock {Behavior of a stochastic SIR epidemic model with saturated incidence
+  and vaccination rules}.
+\newblock {\em Physica A: Statistical Mechanics and its Applications},
+  501:178–187.
+
+\end{thebibliography}

@@ -1,0 +1,82 @@
+\begin{frame}
+    \frametitle{Alternativas}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    \begin{textblock*}{47mm}(3mm, 25mm)
+        \begin{tcolorbox}[title={Modelos de \\epid\'emias}]
+            \begin{itemize}
+                \item<2-3> \textcolor<2>{orange}{CTMCs}
+                \item<3-4,6>\textcolor<3-4,6>{orange}{
+                    \textbf<6>{%
+                        Perturbación de parámetros
+                    }
+                }
+                \item<5> \textcolor<5>{orange}{Procesos reversibles en media}
+            \end{itemize}
+        \end{tcolorbox}
+    \end{textblock*}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+   \begin{textblock*}{75mm}(51mm, 25mm)
+       \begin{tcolorbox}[
+            title={%
+                \only<2>{%
+                    $\mathbf{MC}+\mathbf{ME}$ $\to$ $SDE$%
+                }%
+                \only<3,6>{%
+                    $\varphi dt \rightsquigarrow \varphi dt+ \sigma dB_t$%
+                }%
+                \only<4>{%
+                    $\varphi dt \rightsquigarrow \varphi dt+F(x)dB_t$%
+                }%
+                \only<5>{%
+                    $d
+                        \varphi_t = (\varphi_e -\varphi_t)dt
+                        + \sigma_\varphi dBt$ %
+                }%
+            }%Block titles
+        ]%
+            \only<2>{
+                \begin{bibunit}[apalike]
+                    \nocite{Allen2017}
+                    \putbib
+                \end{bibunit}
+            }
+            \only<3>{
+                \begin{bibunit}[apalike]
+                    \nocite{Gray2011}
+                    \putbib
+              \end{bibunit}
+            }
+            \only<4>{
+                \begin{bibunit}[apalike]
+                    \nocite{Schurz2015}
+                    \putbib
+              \end{bibunit}
+            }
+            \only<5>{
+                \begin{bibunit}[apalike]
+                    \nocite{Allen2016}
+                    \putbib
+              \end{bibunit}
+            }
+         \end{tcolorbox}
+   \end{textblock*}
+%     \begin{textblock*}{45mm}(3mm, 20mm)
+%         \begin{tcolorbox}[title={Efectos \\ Ambientales }]
+%             Inducen
+%             \tclblower
+%             \begin{itemize}
+%                 \item
+%                     \textcolor<2-3>{orange}{
+%                         Extinción
+%                     }
+%                 \item
+%                     \textcolor<4>{orange}{
+%                         Persistencia
+%                         \\
+%                         Oscilaciones
+%                     }
+%             \end{itemize}
+%         \end{tcolorbox}
+%     \end{textblock*}
+\end{frame}
+

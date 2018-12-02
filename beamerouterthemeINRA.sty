@@ -1,0 +1,70 @@
+\ProvidesPackage{beamerouterthemeINRA}[2013/02/20]
+
+% Beamer theme by François Guillaume
+% based on the LaTeX-Beamer package :
+% Copyright 2003 by Till Tantau <tantau@users.sourceforge.net>
+%
+% This program can be redistributed and/or modified under the terms
+% of the GNU Public License, version 2.
+
+\makeatletter
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% Background 
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\setbeamertemplate{background canvas}{%
+  \ifnum\c@framenumber=1%1ere slide
+  \includegraphics[width=\paperwidth,height=\paperheight]{bgINRA1}
+  \else%Autres slides
+  \includegraphics[width=\paperwidth,height=\paperheight]{bgINRA2}
+  \fi%
+}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% Footline
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\defbeamertemplate*{footline}{INRA theme}{
+  \begin{beamercolorbox}[wd=\paperwidth,ht=15 pt,leftskip=2.5cm,dp=1ex]{structure.fg}%
+   \color{white}\insertauthor\qquad\color{INRA@linst}\inserttitle \hfill \color{white}\insertdate\par
+  \end{beamercolorbox}
+}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% Page de titre
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\defbeamertemplate*{title page}{INRATitle}{
+  \vspace{0.5 \paperheight}%
+  {\color{white}\huge\bf\textsc{\inserttitle}}
+  \ifx\insertsubtitle\@empty\\[\baselineskip]
+  \else{\\\color{INRA@dinst}\insertsubtitle}\\[\baselineskip]
+  \fi
+  \hfill{\color{white}\large\bf\textsc{\insertauthor}}
+  \vfill
+}
+
+
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% %
+% % Navigation bar
+% %
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\mode<presentation>
+
+\defbeamertemplate*{headline}{INRA theme}
+{
+  \begin{beamercolorbox}{headline}
+    \vskip0.5pt\insertnavigation{\paperwidth}\vskip0.2pt
+  \end{beamercolorbox}
+%   \begin{beamercolorbox}[colsep=1.5pt]{INRA@linst}
+%   \end{beamercolorbox}
+}
+
+\mode<all>
+
+
+\makeatother
