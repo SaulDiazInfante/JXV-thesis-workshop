@@ -1,6 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \def\Q#1#2{\frac{\partial #1}{\partial #2}}
 \usetikzlibrary{arrows,shapes}
+\pgfplotsset{compat=1.14}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %------------------------------------Theorems 
 \theoremstyle{plain} % default
@@ -123,31 +124,8 @@
       \node[at={(0,0)},above=5pt]{#3};
     \end{scope}
 }
-\tcbuselibrary{skins, breakable}
-%
-\newtcolorbox{greenbox}[1]{%
-        colback = green!5!white,
-        colframe = green!55!black,
-        fonttitle = \bfseries,
-        title = #1
-    }
-\newtcolorbox{bluebox}[1]{%
-        colback = blue!5!white,
-        colframe = blue!55!black,
-        fonttitle = \bfseries,
-        title = #1
-    }
-%
-\newtcolorbox{graybox}[1]{%
-        colback = gray!5!white,
-        colframe = gray!55!black,
-        fonttitle = \bfseries,
-        title = #1
-    }
-%
-\newtcolorbox{yellowbox}[1]{%
-        colback = yellow!5!white,
-        colframe = yellow!55!black,
-        fonttitle = \bfseries,
-        title = #1
-    }
+\usepackage{remreset}
+\makeatletter
+\@removefromreset{subsection}{section}
+\makeatother
+\setcounter{subsection}{1}

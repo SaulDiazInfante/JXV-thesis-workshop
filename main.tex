@@ -1,4 +1,4 @@
-\documentclass[compress]{beamer}
+\documentclass{beamer}
 \usepackage[spanish, activeacute]{babel}
 \usepackage{xcolor}
 \usepackage{color}
@@ -9,30 +9,20 @@
 \usepackage{latexsym}
 \usepackage{ucs}
 \usepackage[utf8]{inputenc}
-\usepackage{wrapfig}
 \usepackage{siunitx}
 \usepackage{times}
 \usepackage{tikz}
 \usepackage{verbatim}
-\usepackage{multimedia}
-\usepackage{hyperref}
-\usepackage{thumbpdf}
-\usepackage{wasysym}
 \usepackage{pgf,pgfarrows,pgfnodes,pgfautomata,pgfheaps,pgfshade}
-\usepackage{url}
-\usepackage{empheq}
-\usepackage{fancybox}
+%\usepackage{url}
+\usepackage{listings}
 \usepackage{esint}
 \usepackage{lipsum}
-\usepackage{listings}
 \usepackage{mathptmx}
 \usepackage{helvet}
 \usepackage{tikz}%
-\usepackage{circuitikz}
 \usepackage{csvsimple}
 \usepackage{pgfplots}
-\usepackage{multimedia}
-\usepackage{media9}
 \usepackage{proba}
 \usepackage[absolute,overlay]{textpos}
 \usepackage{bibunits}
@@ -43,27 +33,10 @@
     gridunit=mm,
     gridcolor=red!60,
     subgridcolor=gray!60]{eso-pic}
-\usepackage[makeroom]{cancel}
-\usepackage{epstopdf}
-\usepackage{thumbpdf}
-\usepackage{wasysym}
-\usepackage{ucs}
-\usepackage[utf8]{inputenc}
-\usepackage{pgf,pgfarrows,pgfnodes,pgfautomata,pgfheaps,pgfshade}
-\usepackage{pgfpages}
-\usepackage{verbatim}
-\usepackage{fancyvrb}
-\usepackage{multimedia}
-\usepackage{subcaption}
-\usepackage{ulem}
-\usepackage{textcomp}
-\usepackage{tikz}
-\usepackage{listings}
 \usepackage{epigraph}
 \setlength{\epigraphwidth}{.8\textwidth}
 \usepackage{DejaVuSansMono}
 %
-% Adjust the colours to fit your design
 \definecolor{mainthemecolour}{rgb}{0.42,0.48,0.37}
 \definecolor{mainthemecolourlight}{rgb}{0.63,0.72,0.57}
 \definecolor{mainthemecolourstrong}{rgb}{0.40,0.68,0.18}
@@ -94,11 +67,36 @@
 \newcommand{\codedots}[0]{\textcolor{mid-gray}{...}}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \usetheme{elegance}
-%\usetheme{INRA}
-%\useoutertheme{miniframes}
-%-------------------------------------------------------------------------------
-% Quelques options pdf
-%-------------------------------------------------------------------------------
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\tcbuselibrary{skins, breakable}
+%
+\newtcolorbox{greenbox}[1]{%
+        colback = green!5!white,
+        colframe = green!55!black,
+        fonttitle = \bfseries,
+        title = #1
+    }
+\newtcolorbox{bluebox}[1]{%
+        colback = blue!5!white,
+        colframe = blue!55!black,
+        fonttitle = \bfseries,
+        title = #1
+    }
+%
+\newtcolorbox{graybox}[1]{%
+        colback = gray!5!white,
+        colframe = gray!55!black,
+        fonttitle = \bfseries,
+        title = #1
+    }
+%
+\newtcolorbox{yellowbox}[1]{%
+        colback = yellow!5!white,
+        colframe = yellow!55!black,
+        fonttitle = \bfseries,
+        title = #1
+    }
+
 \hypersetup{
 pdfpagemode = , % afficher le pdf en plein écran
 pdfauthor   = {Saul Diaz Infante Velasco},%
@@ -108,40 +106,6 @@ pdfkeywords = {Science,Impact},%
 pdfcreator  = {PDFLaTeX,emacs,AucTeX, LuaLaTex},%
 pdfproducer = {CONACYT-Universidad de Sonora}%
 }
-\lstnewenvironment{cxxcode}
-    {\lstset
-        { escapeinside={@}{@}
-        , gobble=8
-        , showstringspaces=false
-        , basicstyle=\color{fglisting}
-        , rulecolor=\color{mainthemecolourlight}
-        }
-    }
-    {}
-
-\lstnewenvironment{cxxcodebox}
-    {\lstset
-        { escapeinside={@}{@}
-        , gobble=6
-        , showstringspaces=false
-        , basicstyle=\color{fglisting}
-        , frame=lr
-        , rulecolor=\color{mainthemecolourlight}
-        }
-    }
-    {}
-\lstnewenvironment{shellcode}
-    {\lstset
-        { escapeinside={@}{@}
-        , gobble=7
-        , showstringspaces=false
-        , basicstyle=\color{fgshell}
-        , backgroundcolor=\color{bgshell}
-        }
-    }
-    {}
-%
-% Marking points to use in Tikz
 \usetikzlibrary{arrows,shapes}
 \newcommand{\tikzmark}[1]{\tikz[remember picture] \node[coordinate] (#1) {#1};}
 %
@@ -154,16 +118,19 @@ pdfproducer = {CONACYT-Universidad de Sonora}%
   \\ Umbral en Modelos Compartimentales}
 \subtitle{Estoc\'asticmente Perturbados}
 \author{Sa\'ul D\'iaz Infante Velasco}
-\institute{\color{white}
+\institute{
+    \color{white}
     CONACYT-Universidad de Sonora \\
     sauldiazinfante@gmail.com \qquad
     https://sauldiazinfantevelasco.wordpress.com%
 } %
 \date{
-  \footnotesize\color{mainthemecolour} UNAM, 
-  Juriquilla, Queretaro  
-  \\
-  \today. }
+    \footnotesize
+    \color{mainthemecolour} 
+    UNAM, 
+    Juriquilla, Queretaro  
+    \\
+    \today. }
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \makeatletter
 \let\@@magyar@captionfix\relax
@@ -179,6 +146,7 @@ pdfproducer = {CONACYT-Universidad de Sonora}%
         \input{./introduction/stochastic_epidemic_models.tex}
         \input{./introduction/alternativas.tex}
         \input{./introduction/objective.tex}
+        %
         \begin{frame}{Esquema de Charla}
             \setbeamertemplate{section in toc}[sections numbered]
             \tableofcontents[hideallsubsections]

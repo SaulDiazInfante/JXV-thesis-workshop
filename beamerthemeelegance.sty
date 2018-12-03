@@ -1,13 +1,16 @@
 \ProvidesPackage{beamerthemeelegance}[2017/07/01]
 \usepackage{eso-pic}
 \usepackage{etoolbox}
-\newif\if@doSans
-\@doSansfalse
+\newif
+\if@doSans
+    \@doSansfalse
 \DeclareOption{noserifmath}{\@doSanstrue}
-\newif\if@doNoFlama
+\newif
+\if@doNoFlama
 \@doNoFlamafalse
 \DeclareOption{noflama}{\@doNoFlamatrue}
-\newif\if@doSectionPage
+\newif
+\if@doSectionPage
 \@doSectionPagefalse
 \DeclareOption{nosectionpages}{\@doSectionPagetrue}
 \ProcessOptions
@@ -15,7 +18,7 @@
 %---------------------------------------------------------------------
 % TOC
 %---------------------------------------------------------------------
-\useoutertheme[subsection=false,shadow]{miniframes}
+\useoutertheme[subsection=false, shadow]{miniframes}
 \setbeamertemplate{section in toc}[sections unnumbered]
 \setbeamertemplate{subsection in toc}[subsections unnumbered]
 \setbeamertemplate{subsection in toc}{\vspace{.2cm}\inserttocsubsection\\}
@@ -251,7 +254,7 @@
     [wd=\paperwidth,
         leftskip=0.3cm,
         rightskip=0.3cm,
-        ht=3ex,dp=1.5ex]{}
+        ht=3ex, dp=1.5ex]{}
         % If you remove section titles, you can play with this
 
         % for the title to be vertically aligned
@@ -259,7 +262,8 @@
         % \vspace{-.3cm}
         % \hspace{-0.3cm}\includegraphics[width=\paperwidth,height=1cm]{./style/images/header.png}\\
         % \vspace{-.97cm}
-        \usebeamerfont{frametitle}\insertframetitle
+        \usebeamerfont{frametitle}
+        \insertframetitle
     \end{beamercolorbox}
 }
 
@@ -269,10 +273,11 @@
 \usenavigationsymbolstemplate{}
 \setbeamertemplate{footline}
 {%
-\begin{beamercolorbox}[wd=\textwidth,ht=3ex,dp=1.5ex,leftskip=0.3cm,rightskip=0.3cm]{structure}%
-\hfill\usebeamerfont{page number in head/foot}%
-\insertframenumber%
-\end{beamercolorbox}%
+    \begin{beamercolorbox}[wd=\textwidth,ht=3ex,dp=1.5ex,leftskip=0.3cm,rightskip=0.3cm]{structure}%
+        \hfill
+        \usebeamerfont{page number in head/foot}%
+        %\insertframenumber%
+    \end{beamercolorbox}%
 }
 
 %---------------------------------------------------------------------
