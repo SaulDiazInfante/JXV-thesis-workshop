@@ -1,4 +1,4 @@
-This is LuaTeX, Version 0.95.0 (TeX Live 2016/Debian)  (format=lualatex 2018.9.21)  2 DEC 2018 23:04
+This is LuaTeX, Version 0.95.0 (TeX Live 2016/Debian)  (format=lualatex 2018.9.21)  3 DEC 2018 08:04
  restricted system commands enabled.
 **main.tex
 (./main.tex
@@ -34,7 +34,7 @@ Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
 '.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 0.086 seconds
+luaotfload | main : initialization completed in 0.094 seconds
 Babel <3.9r> and hyphenation patterns for 1 language(s) loaded.
 (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamer.cls
 Document Class: beamer 2017/01/22 v3.40 A class for typesetting presentations
@@ -2649,7 +2649,7 @@ st/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texlive/texmf-dist/fonts
 public/amsfonts/symbols/msam10.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
 blic/rsfs/rsfs10.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/symbol/usyr.
 pfb>
-Output written on main.pdf (26 pages, 1768851 bytes).
+Output written on main.pdf (26 pages, 1768892 bytes).
 
 PDF statistics: 631 PDF objects out of 1000 (max. 8388607)
  542 compressed objects within 6 object streams
