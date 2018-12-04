@@ -14,7 +14,6 @@
 \usepackage{tikz}
 \usepackage{verbatim}
 \usepackage{pgf,pgfarrows,pgfnodes,pgfautomata,pgfheaps,pgfshade}
-%\usepackage{url}
 \usepackage{listings}
 \usepackage{esint}
 \usepackage{lipsum}
@@ -24,7 +23,7 @@
 \usepackage{csvsimple}
 \usepackage{pgfplots}
 \usepackage{proba}
-\usepackage[absolute,overlay]{textpos}
+\usepackage[absolute, overlay]{textpos}
 \usepackage{bibunits}
 \usepackage{tcolorbox}
 \usepackage[
@@ -96,16 +95,17 @@
         fonttitle = \bfseries,
         title = #1
     }
-
+%
 \hypersetup{
-pdfpagemode = , % afficher le pdf en plein écran
-pdfauthor   = {Saul Diaz Infante Velasco},%
-pdftitle    = {Charla Biomatesis},%
-pdfsubject  = {Bio-matematicas},%
-pdfkeywords = {Science,Impact},%
-pdfcreator  = {PDFLaTeX,emacs,AucTeX, LuaLaTex},%
-pdfproducer = {CONACYT-Universidad de Sonora}%
+    pdfpagemode = , % afficher le pdf en plein écran
+    pdfauthor   = {Saul Diaz Infante Velasco},%
+    pdftitle    = {Charla Biomatesis},%
+    pdfsubject  = {Bio-matematicas},%
+    pdfkeywords = {Science,Impact},%
+    pdfcreator  = {PDFLaTeX,emacs,AucTeX, LuaLaTex},%
+    pdfproducer = {CONACYT-Universidad de Sonora}%
 }
+%
 \usetikzlibrary{arrows,shapes}
 \newcommand{\tikzmark}[1]{\tikz[remember picture] \node[coordinate] (#1) {#1};}
 %
@@ -114,8 +114,10 @@ pdfproducer = {CONACYT-Universidad de Sonora}%
   {\begin{frame}[fragile,environment=xframe,#1]}
   {\end{frame}}
 
-\title{Extinci\'on, Persistencia y Comportamiento 
-  \\ Umbral en Modelos Compartimentales}
+\title{%
+    Extinci\'on, Persistencia y Comportamiento % 
+    \\ Umbral en Modelos Compartimentales %
+}%
 \subtitle{Estoc\'asticmente Perturbados}
 \author{Sa\'ul D\'iaz Infante Velasco}
 \institute{
@@ -154,16 +156,17 @@ pdfproducer = {CONACYT-Universidad de Sonora}%
     \section{Perturbaci\'on con MB}
         \input{./Perturbation/perturbation.tex}
     \section{Propiedades del proceso souluci\'on}
-        %\subsection{$\exists$ Positividad e Invariancia}
-        %\subsection{Extinci\'on}
-        %\subsection{Persistencia}
-    \section{
-        Umbral: %
-        $
-            \mathcal{R}_0^S:= 
-                \mathcal{R}_0^D 
-                    - f(\text{noise})
+        \subsection{$\exists$ Positividad e Invariancia}
+        \subsection{Extinci\'on}
+        \subsection{Persistencia}
+    \section{%
+        Parámetro Umbral: %
+        $%
+            R_0 ^ S:= 
+                R_0 ^ D 
+                - 
+                f(\text{noise})
                     
-        $
-    }
+        $%
+    }%
 \end{document}
