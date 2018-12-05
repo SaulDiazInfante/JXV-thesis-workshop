@@ -1,0 +1,98 @@
+\begin{frame}
+    \frametitle{Existencia de solución única positiva}
+    \begin{textblock*}{60mm}(0mm, 25mm)
+        \begin{yellowbox}{Teorema}
+            \begin{list}{\bullet}{}
+                \item
+                    $I(0) \in (0, N)$
+            \end{list}
+            \tcblower
+             existe c.s.
+            \textbf{solución 
+            global única positiva} 
+            e 
+            \textbf{invariante}
+            a EDE(\star)
+            $$
+                \Pr
+                \{
+                    I(t) \in (0, N)
+                    \ \forall t \geq 0
+                \} = 1.
+            $$
+        \end{yellowbox}
+    \end{textblock*}
+    \begin{textblock*}{60mm}(65mm, 25mm)
+        \begin{align*}
+            dI(t) &= 
+                I(t)
+                \left\{
+                    [
+                        \beta (N - I(t))
+                        -\mu - \gamma
+                    ]
+                    dt
+                \right.
+                \\
+                 &+
+                \left.
+                    \sigma (N-I(t))
+                    dB_t
+                \right\}
+                \tag{\star}
+        \end{align*}
+    \end{textblock*}
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}
+    \frametitle{Extinción por ruido ambiental}
+        \begin{textblock*}{65mm}(0mm, 25mm)
+            \begin{yellowbox}{Teorema}
+                \begin{list}{\bullet}{}
+                    \item
+                        $
+                            \displaystyle
+                            \sigma ^ 2 
+                            >
+                            \max
+                            \left\{
+                                \frac{\beta}{N},
+                                \frac{\beta^2}{2(\mu + \gamma)}
+                            \right\}
+                        $
+                \end{list}
+                \tcblower
+                para toda $I(0)\in (0, N)$ la solución de EDE(\star)
+                cumple
+                $$
+                    \limsup_{t \to \infty} 
+                        \frac{1}{t} \log I(t)
+                        \leq
+                        \underbrace{
+                        -\mu - \gamma 
+                        + \frac{\beta^2}{2 \sigma ^ 2}
+                        }_{<0}
+                $$
+            \end{yellowbox}
+        \end{textblock*}
+        \begin{textblock*}{60mm}(65mm, 25mm)
+            \begin{align*}
+                dI(t) &= 
+                    I(t)
+                    \left\{
+                        [
+                            \beta (N - I(t))
+                            -\mu - \gamma
+                        ]
+                        dt
+                    \right.
+                    \\
+                     &+
+                    \left.
+                        \sigma (N-I(t))
+                        dB_t
+                    \right\}
+                    \tag{\star}
+            \end{align*}
+        \end{textblock*}
+\end{frame}
