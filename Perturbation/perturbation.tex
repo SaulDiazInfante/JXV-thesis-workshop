@@ -1,6 +1,6 @@
 \begin{frame}
     \frametitle{Modelo de jugete}
-    \begin{textblock*}{60mm}(2mm, 25mm)
+    \begin{textblock*}{60mm}(5mm, 5mm)
         \only<1>{
             \begin{align*}
                 \dfrac{dS(t)}{dt} &= 
@@ -25,8 +25,10 @@
                     - \sigma S(t)I(t)dB_t
                 \\
                 \dfrac{I(t)}{dt} &=
-                    [\beta S(t) I(t) - (\mu + \gamma) I(t)]dt,
-                    + \sigma S(t)I(t)dB_t
+                    [\beta S(t) I(t) - (\mu + \gamma) I(t)]
+                    dt
+                    + \sigma S(t)I(t)  
+                    dB_t
             \end{align*}
         }
         \only<9>{
@@ -39,18 +41,26 @@
                             -\mu - \gamma
                         ]
                     \right)
-                     dt,
+                     dt
                     -\sigma (N-I(t))dB_t
             \end{align*}
         }
     \end{textblock*}
-    \only<8>{
-        \begin{textblock*}{42mm}(20mm, 37mm)
+    \only<6>{
+        \begin{textblock*}{45mm}(80mm, 60mm)
              \begin{tcolorbox}
-                 $
-                     \beta d t \rightsquigarrow
-                     \beta d t + \sigma dB_t
-                 $
+                 \begin{align*}
+                    \beta d t  \rightsquigarrow & 
+                    \underbrace{
+                        \beta dt + \sigma dB_t
+                    }_{:= \tilde{\beta} dt}
+                    \\
+                    \mathbb{E} [\tilde{\beta} dt] 
+                        & = \beta dt
+                    \\
+                    \mathbb{V}ar [\tilde{\beta} dt]
+                        & = \sigma dt \to 0 
+                 \end{align*}
              \end{tcolorbox}
          \end{textblock*}
     }
