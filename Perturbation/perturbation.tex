@@ -1,24 +1,27 @@
 \begin{frame}
     \frametitle{Modelo de jugete}
-    \begin{textblock*}{60mm}(5mm, 5mm)
-        \only<1>{
-            \begin{align*}
-                \dfrac{dS(t)}{dt} &= 
-                    \mu N - \beta S(t) I(t) + \gamma I(t) - \mu S(t),
-                \\
-                \dfrac{I(t)}{dt} &=
-                    \beta S(t) I(t) - (\mu + \gamma) I(t),
-            \end{align*}
+    \begin{textblock*}{70mm}(1mm, 15mm)
+        \only<1-9>{
+            \begin{bluebox}{}
+                \begin{align*}
+                    \dfrac{dS(t)}{dt} &= 
+                        \mu N - \beta S(t) I(t) + \gamma I(t) - \mu S(t),
+                    \\
+                    \dfrac{I(t)}{dt} &=
+                        \beta S(t) I(t) - (\mu + \gamma) I(t),
+                \end{align*}
+            \end{bluebox}
         }
         \only<2-7>{
-            \begin{align*}
-                d I(t) &= 
+            $%\begin{align*}
+                d I(t) = 
                     \left[ 
                         \beta S(t) I(t) - (\mu + \gamma) I(t)
                     \right] dt
-            \end{align*}
+            $
+%            %\end{align*}
         }
-        \only<7-9>{
+        \only<7-8>{
             \begin{align*}
                 \dfrac{dS(t)}{dt} &= 
                     [\mu N - \beta S(t) I(t) + \gamma I(t) - \mu S(t)] dt
@@ -33,6 +36,8 @@
         }
         \only<9>{
             \begin{align*}
+                N &= S(t)+I(t) = \text{cte.}
+                \\
                 \dfrac{dI(t)}{dt} &= 
                     I(t)
                     \left(
@@ -42,12 +47,13 @@
                         ]
                     \right)
                      dt
-                    -\sigma (N-I(t))dB_t
+                    -\sigma (N-I(t))
+                    dB_t
             \end{align*}
         }
     \end{textblock*}
     \only<6>{
-        \begin{textblock*}{45mm}(80mm, 60mm)
+        \begin{textblock*}{47mm}(80mm, 55mm)
              \begin{tcolorbox}
                  \begin{align*}
                     \beta d t  \rightsquigarrow & 
@@ -59,13 +65,15 @@
                         & = \beta dt
                     \\
                     \mathbb{V}ar [\tilde{\beta} dt]
-                        & = \sigma dt \to 0 
+                        & = \sigma dt 
+                        \xrightarrow{dt \to 0}
+                        0 
                  \end{align*}
              \end{tcolorbox}
          \end{textblock*}
     }
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-    \begin{textblock*}{60mm}(70mm, 25mm)
+    \begin{textblock*}{60mm}(70mm, 15mm)
         \only<2-6>{
             \begin{itemize}
                 \item<3-6>
@@ -80,7 +88,9 @@
                 \item<4-6>
                     $B_t$ M.B.
                 \item<5-6>
-                    $\beta S(t)I(t) dt$ nuevas infecciones en $[t,t+dt)$
+                    $\beta S(t)I(t) dt$ 
+                    \\
+                    nuevas infecciones en $[t,t+dt)$
                 \item<6>
                     $\beta dt$, contactos potencialmente infecciosos
             \end{itemize}

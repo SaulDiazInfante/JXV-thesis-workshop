@@ -26,6 +26,7 @@
 \usepackage[absolute, overlay]{textpos}
 \usepackage{bibunits}
 \usepackage{tcolorbox}
+\usepackage{mathtools}
 \usepackage[
     texcoord,
     grid,
@@ -156,16 +157,14 @@
     \section{Perturbaci\'on con MB}
         \input{./Perturbation/perturbation.tex}
     \section{Propiedades del proceso souluci\'on}
-        %\subsection{$\exists$ Positividad e Invariancia}
-        %\subsection{Extinci\'on}
-        %\subsection{Persistencia}
+        \input{Perturbation/existence-unicity-posivity}
     \section{%
-        Par\'ametro Umbral: %
+        Umbral: %
         $   
             R_0 ^ S := 
                 R_0 ^ D 
                 -%
-                f(\text{noise})
+                f(\sigma, \cdot)
         $
     }%
 \end{document}
