@@ -11,7 +11,24 @@
                         \beta S(t) I(t) - (\mu + \gamma) I(t),
                     \\
                     R_0 ^ D &= 
-                        \frac{\beta N}{\mu + \gamma}
+                        \frac{\beta N}{\mu + \gamma},
+                    \\
+                    \only<1>{
+                        R_0 ^ D  &< 1
+                        \ \Rightarrow
+                            \lim_{t \to \infty}
+                                I(t) = 0
+                        \\
+                        R_0 ^ D  &> 1
+                        \ \Rightarrow
+                            \lim_{t \to \infty}
+                                I(t) = 
+                                N
+                                \left(
+                                    1 -
+                                    \frac{1}{R_0 ^ D}
+                                \right)
+                    }
                 \end{align*}
             \end{bluebox}
         }
@@ -25,11 +42,11 @@
         }
         \only<7-8>{
             \begin{align*}
-                \dfrac{dS(t)}{dt} &= 
+                dS(t) &= 
                     [\mu N - \beta S(t) I(t) + \gamma I(t) - \mu S(t)] dt
                     - \sigma S(t)I(t)dB_t
                 \\
-                \dfrac{I(t)}{dt} &=
+                dI(t) &=
                     [\beta S(t) I(t) - (\mu + \gamma) I(t)]
                     dt
                     + \sigma S(t)I(t)  
@@ -40,7 +57,7 @@
             \begin{align*}
                 N &= S(t)+I(t) = \text{cte.}
                 \\
-                \dfrac{dI(t)}{dt} &= 
+                dI(t) &= 
                     I(t)
                     \left(
                         [
