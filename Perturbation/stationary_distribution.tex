@@ -1,17 +1,33 @@
 \begin{frame}
-    \frametitle{Distribución estacionaria}
-    \begin{list}{\bullet}{}
-        \item
-            $
-                P_{I_0,t}(\cdot)
-                = \Pr[I(t)\in A]
-            $
-        \item
-            $
-                \displaystyle
-                \lim_{t \to \infty}
-                P_{I_0,t}(\cdot)
-                = \mathbb{P}_{\infty}(\cdot)
-            $ en distribución.
-    \end{list}
+    \begin{textblock*}{60mm}(1mm, 25mm)
+        \frametitle{Distribución estacionaria}
+        \begin{greenbox}{Distribución estacionaria}
+            \begin{list}{\bullet}{}
+                \item
+                    $
+                        P_{I_0,t}(A)
+                        = \Pr[I(t)\in A]
+                    $,
+                    \\
+                    $A \in \mathcal{B}((0, N))$
+                \item
+                    $
+                        \displaystyle
+                        \lim_{t \to \infty}
+                        P_{I_0,t}(\cdot)
+                        = \mathbb{P}_{\infty}(\cdot)
+                    $ en distribución.
+            \end{list}
+        \end{greenbox}
+    \end{textblock*}
+    \begin{textblock*}{60mm}(61mm, 20mm)
+        \only<3>{
+            \includegraphics[width=\textwidth, keepaspectratio]%
+            {Figures/histo_sigma_1.png}
+        }
+        \only<4>{
+            \includegraphics[width=\textwidth, keepaspectratio]%
+            {Figures/histo_sigma_2.png}
+        }
+    \end{textblock*}
 \end{frame}

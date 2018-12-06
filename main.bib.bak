@@ -453,4 +453,84 @@ year = {2010}
   url      = {http://www.sciencedirect.com/science/article/pii/S0378475414002353},
 }
 
+@Article{Acuna-Zegarra2018,
+  author   = {Manuel Adrian Acuña-Zegarra and Saúl Díaz-Infante},
+  title    = {Stochastic asymptotic analysis of a multi-host model with vector transmission},
+  journal  = {Physica A: Statistical Mechanics and its Applications},
+  year     = {2018},
+  volume   = {510},
+  pages    = {243 - 260},
+  issn     = {0378-4371},
+  abstract = {We present a stochastic epidemic model with vectorial transmission and multi-host structure. To include environmental noise, we stochastically perturb biting rates with general state functional intensities. So, we derive a stochastic differential equation (SDE) which describes a vector disease with two types of hosts – humans and animals – and give conditions to assure disease extinction and persistence. Finally, via numerical experiments, we extend and illustrate our results using literature parameters for Chagas.},
+  doi      = {https://doi.org/10.1016/j.physa.2018.06.105},
+  keywords = {Multi-host, Vector transmission, Persistence, Extinction, Stochastic perturbation},
+  url      = {http://www.sciencedirect.com/science/article/pii/S037843711830829X},
+}
+
+@Article{Diaz-Infante2017a,
+  author   = {S. Díaz-Infante and S. Jerez},
+  title    = {The linear Steklov method for SDEs with non-globally Lipschitz coefficients: Strong convergence and simulation},
+  journal  = {Journal of Computational and Applied Mathematics},
+  year     = {2017},
+  volume   = {309},
+  pages    = {408 - 423},
+  issn     = {0377-0427},
+  abstract = {We present an explicit numerical method for solving stochastic differential equations with non-globally Lipschitz coefficients. A linear version of the Steklov average under a split-step formulation supports our new solver. The linear Steklov method converges strongly with a standard one-half order. Also, we present numerical evidence that the explicit linear Steklov reproduces almost surely stability solutions with high-accuracy for diverse application models even for stochastic differential systems with super-linear diffusion coefficients.},
+  doi      = {https://doi.org/10.1016/j.cam.2016.04.011},
+  keywords = {Stochastic differential equations, Explicit methods, Strong convergence, Steklov average},
+  url      = {http://www.sciencedirect.com/science/article/pii/S0377042716301844},
+}
+
+@Book{Freidlin1998,
+  title     = {Random Perturbations of Dynamical Systems (Grundlehren der mathematischen Wissenschaften)},
+  publisher = {Springer},
+  year      = {1998},
+  author    = {Mark I. Freidlin, Alexander D. Wentzell},
+  edition   = {2nd},
+  isbn      = {0387983627,9780387983622},
+}
+
+@Book{Arnold1998,
+  title     = {Random Dynamical Systems},
+  publisher = {Springer},
+  year      = {1998},
+  author    = {Ludwig Arnold},
+  series    = {Springer Monographs in Mathematics},
+  isbn      = {3540637583,9783540637585},
+  url       = {http://gen.lib.rus.ec/book/index.php?md5=48CDD0B65C500A672FB2315125618C72},
+}
+
+@Book{Khasminskii,
+  title     = {Stochastic Stability of Differential Equations},
+  publisher = {Springer-Verlag Berlin Heidelberg},
+  year      = {2012},
+  author    = {Rafail Khasminskii},
+  series    = {Stochastic Modelling and Applied Probability 66},
+  edition   = {2},
+  isbn      = {3642232795,9783642232794},
+  url       = {http://gen.lib.rus.ec/book/index.php?md5=BF9214C20734592B62DCB07CD519BEEF},
+}
+
+@Book{Kloeden1995,
+  title     = {Numerical solution of stochastic differential equations},
+  publisher = {Springer},
+  year      = {1995},
+  author    = {Peter E. Kloeden, Eckhard Platen},
+  series    = {Stochastic Modelling and Applied Probability},
+  edition   = {Corrected},
+  isbn      = {3540540628,9783540540625},
+  url       = {http://gen.lib.rus.ec/book/index.php?md5=61A827DB8EBE52D5D62BBA16D96CD996},
+}
+
+@Book{Kloeden2017,
+  title     = {Random Ordinary Differential Equations and Their Numerical Solution},
+  publisher = {Springer Singapore},
+  year      = {2017},
+  author    = {Xiaoying Han and Peter E. Kloeden},
+  series    = {Probability Theory and Stochastic Modelling 85},
+  edition   = {1},
+  isbn      = {978-981-10-6264-3, 978-981-10-6265-0},
+  url       = {http://gen.lib.rus.ec/book/index.php?md5=03be167684605baa3e43c35db1081653},
+}
+
 @Comment{jabref-meta: databaseType:bibtex;}
