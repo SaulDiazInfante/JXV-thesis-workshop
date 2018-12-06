@@ -9,17 +9,19 @@
                     \\
                     \dfrac{I(t)}{dt} &=
                         \beta S(t) I(t) - (\mu + \gamma) I(t),
+                    \\
+                    R_0 ^ D &= 
+                        \frac{\beta N}{\mu + \gamma}
                 \end{align*}
             \end{bluebox}
         }
         \only<2-7>{
-            $%\begin{align*}
+            $
                 d I(t) = 
                     \left[ 
                         \beta S(t) I(t) - (\mu + \gamma) I(t)
                     \right] dt
             $
-%            %\end{align*}
         }
         \only<7-8>{
             \begin{align*}
@@ -65,7 +67,7 @@
                         & = \beta dt
                     \\
                     \mathbb{V}ar [\tilde{\beta} dt]
-                        & = \sigma dt 
+                        & = \sigma^2 dt 
                         \xrightarrow{dt \to 0}
                         0 
                  \end{align*}
@@ -96,4 +98,4 @@
             \end{itemize}
         }
     \end{textblock*}
-\end{frame}
+  \end{frame}

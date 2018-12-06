@@ -1,0 +1,63 @@
+\begin{frame}
+    \frametitle{Extinción}
+        \begin{textblock*}{65mm}(1mm, 20mm)
+            \begin{yellowbox}{Teorema (Extinción)}
+                \begin{list}{\bullet}{}
+                    \item
+                        $
+                            \displaystyle
+                            R_0 ^ S := R_0 ^D
+                            - \frac{\sigma ^ 2}{2(\mu + \gamma)} < 1
+                        $
+                    \item
+                        $
+                            \displaystyle
+                            \sigma^2 \leq \frac{\beta}{N}
+                        $
+                \end{list}
+                \tcblower
+                para toda $I(0)\in (0, N)$
+                \begin{align*}
+                    &\limsup_{t \to \infty} 
+                    \frac{1}{t} \log I(t)
+                        \leq
+                        \kappa,  \quad c.s.
+                    \\
+                        &\kappa :=
+                        \beta N - \mu - \gamma 
+                        - \frac{\sigma^2 N^2}{2 \sigma ^ 2}
+                        <0 
+                \end{align*}
+            \end{yellowbox}
+        \end{textblock*}
+        \begin{textblock*}{62mm}(65mm, 25mm)
+            \begin{align*}
+                dI(t) &= 
+                    I(t)
+                    \left\{
+                        [
+                            \beta (N - I(t))
+                            -\mu - \gamma
+                        ]
+                        dt
+                    \right.
+                    \\
+                     &+
+                    \left.
+                        \sigma (N-I(t))
+                        dB_t
+                    \right\}
+                    \tag{\star}
+            \end{align*}
+        \end{textblock*}
+\end{frame}
+\begin{frame}
+    \frametitle{Simulación: Extinción por condición umbral}
+    \begin{figure}[h!]
+        \centering
+        \includegraphics[width=1.01\textwidth, keepaspectratio]%
+        {./Figures/IStochastiSIS01.png}
+        %\caption{Extinción}
+    \end{figure}
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

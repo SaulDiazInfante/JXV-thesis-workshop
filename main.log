@@ -1,4 +1,4 @@
-This is LuaTeX, Version 0.95.0 (TeX Live 2016/Debian)  (format=lualatex 2018.9.21)  5 DEC 2018 00:25
+This is LuaTeX, Version 0.95.0 (TeX Live 2016/Debian)  (format=lualatex 2018.9.21)  5 DEC 2018 22:11
  restricted system commands enabled.
 **main.tex
 (./main.tex
@@ -2244,14 +2244,18 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 145.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 145.
+
+Overfull \hbox (15.90842pt too wide) detected at line 145
+  [][] [][][][][][][] [][][] [][][][][] [][][][][][] [][]  
+ []
+
 \c__siunitx_mathsf_int=\count331
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 145.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 145.
 \c__siunitx_mathtt_int=\count332
-
-<./style/images/logojuriquilla.png, id=46, 65.043pt x 99.61215pt>
+<./style/images/logojuriquilla.png, id=57, 65.043pt x 99.61215pt>
 File: ./style/images/logojuriquilla.png Graphic file (type png)
 
 <use ./style/images/logojuriquilla.png>
@@ -2262,7 +2266,7 @@ Package luatex.def Info: ./style/images/logojuriquilla.png used on input line 14
 Overfull \vbox (13.6pt too high) detected at line 146
  []
 
-<./style/images/background-title.pdf, id=47, 364.20065pt x 273.43153pt>
+<./style/images/background-title.pdf, id=58, 364.20065pt x 273.43153pt>
 File: ./style/images/background-title.pdf Graphic file (type pdf)
 
 <use ./style/images/background-title.pdf>
@@ -2276,7 +2280,7 @@ tle.pdf><./style/images/logojuriquilla.png>] (./main.toc
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
 )
-<./style/images/background-section.pdf, id=63, 364.12036pt x 273.4215pt>
+<./style/images/background-section.pdf, id=74, 364.12036pt x 273.4215pt>
 File: ./style/images/background-section.pdf Graphic file (type pdf)
 
 <use ./style/images/background-section.pdf>
@@ -2286,14 +2290,19 @@ e 147.
  [2
 
 <./style/images/background-section.pdf>] (./introduction/introduction.tex
-<./style/images/background-slide.pdf, id=76, 364.20065pt x 273.43153pt>
+<./style/images/background-slide.pdf, id=87, 364.20065pt x 273.43153pt>
 File: ./style/images/background-slide.pdf Graphic file (type pdf)
 
 <use ./style/images/background-slide.pdf>
 Package luatex.def Info: ./style/images/background-slide.pdf used on input line 
 123.
 (luatex.def)             Requested size: 364.2053pt x 273.168pt.
- [3
+
+Overfull \hbox (16.42795pt too wide) has occurred while \output is active
+  [][] [][][][][][][] [][][] [][][][][] [][][][][][] [][]  
+ []
+
+[3
 
 <./style/images/background-slide.pdf>]
 Overfull \hbox (7.39255pt too wide) in paragraph at lines 123--123
@@ -2305,7 +2314,12 @@ File: ./style/images/background-slide.pdf Graphic file (type pdf)
 Package luatex.def Info: ./style/images/background-slide.pdf used on input line 
 123.
 (luatex.def)             Requested size: 364.2053pt x 273.168pt.
- [4
+
+Overfull \hbox (16.42795pt too wide) has occurred while \output is active
+  [][] [][][][][][][] [][][] [][][][][] [][][][][][] [][]  
+ []
+
+[4
 
 ]
 Overfull \hbox (7.39255pt too wide) in paragraph at lines 123--123
@@ -2317,7 +2331,12 @@ File: ./style/images/background-slide.pdf Graphic file (type pdf)
 Package luatex.def Info: ./style/images/background-slide.pdf used on input line 
 123.
 (luatex.def)             Requested size: 364.2053pt x 273.168pt.
- [5
+
+Overfull \hbox (16.42795pt too wide) has occurred while \output is active
+  [][] [][][][][][][] [][][] [][][][][] [][][][][][] [][]  
+ []
+
+[5
 
 ]
 Overfull \hbox (7.39255pt too wide) in paragraph at lines 123--123
@@ -2329,7 +2348,12 @@ File: ./style/images/background-slide.pdf Graphic file (type pdf)
 Package luatex.def Info: ./style/images/background-slide.pdf used on input line 
 123.
 (luatex.def)             Requested size: 364.2053pt x 273.168pt.
- [6
+
+Overfull \hbox (16.42795pt too wide) has occurred while \output is active
+  [][] [][][][][][][] [][][] [][][][][] [][][][][][] [][]  
+ []
+
+[6
 
 ]
 Overfull \hbox (7.39255pt too wide) in paragraph at lines 123--123
@@ -2341,7 +2365,12 @@ File: ./style/images/background-slide.pdf Graphic file (type pdf)
 Package luatex.def Info: ./style/images/background-slide.pdf used on input line 
 123.
 (luatex.def)             Requested size: 364.2053pt x 273.168pt.
- [7
+
+Overfull \hbox (16.42795pt too wide) has occurred while \output is active
+  [][] [][][][][][][] [][][] [][][][][] [][][][][][] [][]  
+ []
+
+[7
 
 ]
 Overfull \hbox (7.39255pt too wide) in paragraph at lines 123--123
@@ -2358,7 +2387,12 @@ File: ./style/images/background-slide.pdf Graphic file (type pdf)
 Package luatex.def Info: ./style/images/background-slide.pdf used on input line 
 123.
 (luatex.def)             Requested size: 364.2053pt x 273.168pt.
- [8
+
+Overfull \hbox (16.42795pt too wide) has occurred while \output is active
+  [][] [][][][][][][] [][][] [][][][][] [][][][][][] [][]  
+ []
+
+[8
 
 ]
 Overfull \hbox (7.39255pt too wide) in paragraph at lines 123--123
@@ -2380,7 +2414,12 @@ File: ./style/images/background-slide.pdf Graphic file (type pdf)
 Package luatex.def Info: ./style/images/background-slide.pdf used on input line 
 123.
 (luatex.def)             Requested size: 364.2053pt x 273.168pt.
- [9
+
+Overfull \hbox (16.42795pt too wide) has occurred while \output is active
+  [][] [][][][][][][] [][][] [][][][][] [][][][][][] [][]  
+ []
+
+[9
 
 ]
 Overfull \hbox (95.55472pt too wide) in paragraph at lines 123--123
@@ -2396,10 +2435,15 @@ File: ./style/images/background-slide.pdf Graphic file (type pdf)
 Package luatex.def Info: ./style/images/background-slide.pdf used on input line 
 123.
 (luatex.def)             Requested size: 364.2053pt x 273.168pt.
- [10
 
-</usr/share/texlive/texmf-dist/tex/latex/beamer/art/beamericonarticle.pdf>])
-(./introduction/stochastic_epidemic_models.tex (./bu2.aux)
+Overfull \hbox (16.42795pt too wide) has occurred while \output is active
+  [][] [][][][][][][] [][][] [][][][][] [][][][][][] [][]  
+ []
+
+[10
+
+</usr/share/texlive/texmf-dist/tex/latex/beamer/art/beamericonarticle.pdf>]) (.
+/introduction/stochastic_epidemic_models.tex (./bu2.aux)
 \openout6 = bu2.aux
  (./bu2.bbl)
 (./bu2.aux)
@@ -2409,16 +2453,25 @@ File: ./style/images/background-slide.pdf Graphic file (type pdf)
 Package luatex.def Info: ./style/images/background-slide.pdf used on input line 
 47.
 (luatex.def)             Requested size: 364.2053pt x 273.168pt.
- [11
+
+Overfull \hbox (16.42795pt too wide) has occurred while \output is active
+  [][] [][][][][][][] [][][] [][][][][] [][][][][][] [][]  
+ []
+
+[11
 
 ]
 File: ./style/images/background-slide.pdf Graphic file (type pdf)
-
-<use ./style/images/background-slide.pdf>
+ <use ./style/images/background-slide.pdf>
 Package luatex.def Info: ./style/images/background-slide.pdf used on input line 
 47.
 (luatex.def)             Requested size: 364.2053pt x 273.168pt.
- [12
+
+Overfull \hbox (16.42795pt too wide) has occurred while \output is active
+  [][] [][][][][][][] [][][] [][][][][] [][][][][][] [][]  
+ []
+
+[12
 
 ]
 Underfull \hbox (badness 10000) in paragraph at lines 47--47
@@ -2445,10 +2498,14 @@ File: ./style/images/background-slide.pdf Graphic file (type pdf)
 Package luatex.def Info: ./style/images/background-slide.pdf used on input line 
 47.
 (luatex.def)             Requested size: 364.2053pt x 273.168pt.
- [13
 
-])
-(./introduction/alternativas.tex
+Overfull \hbox (16.42795pt too wide) has occurred while \output is active
+  [][] [][][][][][][] [][][] [][][][][] [][][][][][] [][]  
+ []
+
+[13
+
+]) (./introduction/alternativas.tex
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 115.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
@@ -2465,108 +2522,144 @@ File: ./style/images/background-slide.pdf Graphic file (type pdf)
 Package luatex.def Info: ./style/images/background-slide.pdf used on input line 
 115.
 (luatex.def)             Requested size: 364.2053pt x 273.168pt.
- [14
+
+Overfull \hbox (16.42795pt too wide) has occurred while \output is active
+  [][] [][][][][][][] [][][] [][][][][] [][][][][][] [][]  
+ []
+
+[14
 
 ] (./bu4.aux)
 \openout6 = bu4.aux
- (./bu4.bbl)
-(./bu4.aux)
+ (./bu4.bbl) (./bu4.aux)
 No file bu.aux.
 File: ./style/images/background-slide.pdf Graphic file (type pdf)
 <use ./style/images/background-slide.pdf>
 Package luatex.def Info: ./style/images/background-slide.pdf used on input line 
 115.
 (luatex.def)             Requested size: 364.2053pt x 273.168pt.
- [15
+
+Overfull \hbox (16.42795pt too wide) has occurred while \output is active
+  [][] [][][][][][][] [][][] [][][][][] [][][][][][] [][]  
+ []
+
+[15
 
 ] (./bu5.aux)
 \openout6 = bu5.aux
- (./bu5.bbl)
-(./bu5.aux)
+ (./bu5.bbl) (./bu5.aux)
 No file bu.aux.
 File: ./style/images/background-slide.pdf Graphic file (type pdf)
 <use ./style/images/background-slide.pdf>
 Package luatex.def Info: ./style/images/background-slide.pdf used on input line 
 115.
 (luatex.def)             Requested size: 364.2053pt x 273.168pt.
- [16
+
+Overfull \hbox (16.42795pt too wide) has occurred while \output is active
+  [][] [][][][][][][] [][][] [][][][][] [][][][][][] [][]  
+ []
+
+[16
 
 ] (./bu6.aux)
 \openout6 = bu6.aux
- (./bu6.bbl)
-(./bu6.aux)
+ (./bu6.bbl) (./bu6.aux)
 No file bu.aux.
 File: ./style/images/background-slide.pdf Graphic file (type pdf)
 <use ./style/images/background-slide.pdf>
 Package luatex.def Info: ./style/images/background-slide.pdf used on input line 
 115.
 (luatex.def)             Requested size: 364.2053pt x 273.168pt.
- [17
+
+Overfull \hbox (16.42795pt too wide) has occurred while \output is active
+  [][] [][][][][][][] [][][] [][][][][] [][][][][][] [][]  
+ []
+
+[17
 
 ] (./bu7.aux)
 \openout6 = bu7.aux
- (./bu7.bbl)
-(./bu7.aux)
+ (./bu7.bbl) (./bu7.aux)
 No file bu.aux.
 File: ./style/images/background-slide.pdf Graphic file (type pdf)
 <use ./style/images/background-slide.pdf>
 Package luatex.def Info: ./style/images/background-slide.pdf used on input line 
 115.
 (luatex.def)             Requested size: 364.2053pt x 273.168pt.
- [18
+
+Overfull \hbox (16.42795pt too wide) has occurred while \output is active
+  [][] [][][][][][][] [][][] [][][][][] [][][][][][] [][]  
+ []
+
+[18
 
 ] (./bu8.aux)
 \openout6 = bu8.aux
- (./bu8.bbl)
-(./bu8.aux)
+ (./bu8.bbl) (./bu8.aux)
 No file bu.aux.
 File: ./style/images/background-slide.pdf Graphic file (type pdf)
 <use ./style/images/background-slide.pdf>
 Package luatex.def Info: ./style/images/background-slide.pdf used on input line 
 115.
 (luatex.def)             Requested size: 364.2053pt x 273.168pt.
- [19
+
+Overfull \hbox (16.42795pt too wide) has occurred while \output is active
+  [][] [][][][][][][] [][][] [][][][][] [][][][][][] [][]  
+ []
+
+[19
 
 ] (./bu9.aux)
 \openout6 = bu9.aux
- (./bu9.bbl)
-(./bu9.aux)
+ (./bu9.bbl) (./bu9.aux)
 No file bu.aux.
 File: ./style/images/background-slide.pdf Graphic file (type pdf)
 <use ./style/images/background-slide.pdf>
 Package luatex.def Info: ./style/images/background-slide.pdf used on input line 
 115.
 (luatex.def)             Requested size: 364.2053pt x 273.168pt.
- [20
+
+Overfull \hbox (16.42795pt too wide) has occurred while \output is active
+  [][] [][][][][][][] [][][] [][][][][] [][][][][][] [][]  
+ []
+
+[20
 
 ]) (./introduction/objective.tex
 File: ./style/images/background-slide.pdf Graphic file (type pdf)
-
-<use ./style/images/background-slide.pdf>
+ <use ./style/images/background-slide.pdf>
 Package luatex.def Info: ./style/images/background-slide.pdf used on input line 
 24.
 (luatex.def)             Requested size: 364.2053pt x 273.168pt.
- [21
+
+Overfull \hbox (16.42795pt too wide) has occurred while \output is active
+  [][] [][][][][][][] [][][] [][][][][] [][][][][][] [][]  
+ []
+
+[21
 
 ]) (./main.toc
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
 )
 File: ./style/images/background-slide.pdf Graphic file (type pdf)
-
-<use ./style/images/background-slide.pdf>
+ <use ./style/images/background-slide.pdf>
 Package luatex.def Info: ./style/images/background-slide.pdf used on input line 
 156.
 (luatex.def)             Requested size: 364.2053pt x 273.168pt.
- [22
+
+Overfull \hbox (16.42795pt too wide) has occurred while \output is active
+  [][] [][][][][][][] [][][] [][][][][] [][][][][][] [][]  
+ []
+
+[22
 
 ] (./main.toc
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
 )
 File: ./style/images/background-section.pdf Graphic file (type pdf)
-
-<use ./style/images/background-section.pdf>
+ <use ./style/images/background-section.pdf>
 Package luatex.def Info: ./style/images/background-section.pdf used on input lin
 e 157.
 (luatex.def)             Requested size: 364.21947pt x 273.15796pt.
@@ -2574,140 +2667,184 @@ e 157.
 
 ]
 (./Perturbation/perturbation.tex
-Overfull \hbox (16.5534pt too wide) in paragraph at lines 99--99
+Overfull \hbox (16.5534pt too wide) in paragraph at lines 101--101
 [] 
  []
 
 File: ./style/images/background-slide.pdf Graphic file (type pdf)
 <use ./style/images/background-slide.pdf>
 Package luatex.def Info: ./style/images/background-slide.pdf used on input line 
-99.
+101.
 (luatex.def)             Requested size: 364.2053pt x 273.168pt.
- [24
+
+Overfull \hbox (16.42795pt too wide) has occurred while \output is active
+  [][] [][][][][][][] [][][] [][][][][] [][][][][][] [][]  
+ []
+
+[24
 
 ]
-Overfull \hbox (16.5534pt too wide) in paragraph at lines 99--99
+Overfull \hbox (16.5534pt too wide) in paragraph at lines 101--101
 [] 
  []
 
 File: ./style/images/background-slide.pdf Graphic file (type pdf)
 <use ./style/images/background-slide.pdf>
 Package luatex.def Info: ./style/images/background-slide.pdf used on input line 
-99.
+101.
 (luatex.def)             Requested size: 364.2053pt x 273.168pt.
- [25
+
+Overfull \hbox (16.42795pt too wide) has occurred while \output is active
+  [][] [][][][][][][] [][][] [][][][][] [][][][][][] [][]  
+ []
+
+[25
 
 ]
-Overfull \hbox (16.5534pt too wide) in paragraph at lines 99--99
+Overfull \hbox (16.5534pt too wide) in paragraph at lines 101--101
 [] 
  []
 
 File: ./style/images/background-slide.pdf Graphic file (type pdf)
 <use ./style/images/background-slide.pdf>
 Package luatex.def Info: ./style/images/background-slide.pdf used on input line 
-99.
+101.
 (luatex.def)             Requested size: 364.2053pt x 273.168pt.
- [26
+
+Overfull \hbox (16.42795pt too wide) has occurred while \output is active
+  [][] [][][][][][][] [][][] [][][][][] [][][][][][] [][]  
+ []
+
+[26
 
 ]
-Overfull \hbox (16.5534pt too wide) in paragraph at lines 99--99
+Overfull \hbox (16.5534pt too wide) in paragraph at lines 101--101
 [] 
  []
 
 File: ./style/images/background-slide.pdf Graphic file (type pdf)
 <use ./style/images/background-slide.pdf>
 Package luatex.def Info: ./style/images/background-slide.pdf used on input line 
-99.
+101.
 (luatex.def)             Requested size: 364.2053pt x 273.168pt.
- [27
+
+Overfull \hbox (16.42795pt too wide) has occurred while \output is active
+  [][] [][][][][][][] [][][] [][][][][] [][][][][][] [][]  
+ []
+
+[27
 
 ]
-Overfull \hbox (16.5534pt too wide) in paragraph at lines 99--99
+Overfull \hbox (16.5534pt too wide) in paragraph at lines 101--101
 [] 
  []
 
 File: ./style/images/background-slide.pdf Graphic file (type pdf)
 <use ./style/images/background-slide.pdf>
 Package luatex.def Info: ./style/images/background-slide.pdf used on input line 
-99.
+101.
 (luatex.def)             Requested size: 364.2053pt x 273.168pt.
- [28
+
+Overfull \hbox (16.42795pt too wide) has occurred while \output is active
+  [][] [][][][][][][] [][][] [][][][][] [][][][][][] [][]  
+ []
+
+[28
 
 ]
-Overfull \hbox (16.5534pt too wide) in paragraph at lines 99--99
+Overfull \hbox (16.5534pt too wide) in paragraph at lines 101--101
 [] 
  []
 
 
-Overfull \hbox (9.76451pt too wide) in paragraph at lines 99--99
+Overfull \hbox (14.83873pt too wide) in paragraph at lines 101--101
 [] 
  []
 
 File: ./style/images/background-slide.pdf Graphic file (type pdf)
 <use ./style/images/background-slide.pdf>
 Package luatex.def Info: ./style/images/background-slide.pdf used on input line 
-99.
+101.
 (luatex.def)             Requested size: 364.2053pt x 273.168pt.
- [29
+
+Overfull \hbox (16.42795pt too wide) has occurred while \output is active
+  [][] [][][][][][][] [][][] [][][][][] [][][][][][] [][]  
+ []
+
+[29
 
 ]
-Overfull \hbox (16.5534pt too wide) in paragraph at lines 99--99
+Overfull \hbox (16.5534pt too wide) in paragraph at lines 101--101
 [] 
  []
 
 
-Overfull \hbox (69.99745pt too wide) in paragraph at lines 99--99
+Overfull \hbox (69.99745pt too wide) in paragraph at lines 101--101
 []  
  []
 
 File: ./style/images/background-slide.pdf Graphic file (type pdf)
 <use ./style/images/background-slide.pdf>
 Package luatex.def Info: ./style/images/background-slide.pdf used on input line 
-99.
+101.
 (luatex.def)             Requested size: 364.2053pt x 273.168pt.
- [30
+
+Overfull \hbox (16.42795pt too wide) has occurred while \output is active
+  [][] [][][][][][][] [][][] [][][][][] [][][][][][] [][]  
+ []
+
+[30
 
 ]
-Overfull \hbox (16.5534pt too wide) in paragraph at lines 99--99
+Overfull \hbox (16.5534pt too wide) in paragraph at lines 101--101
 [] 
  []
 
 
-Overfull \hbox (69.99745pt too wide) in paragraph at lines 99--99
+Overfull \hbox (69.99745pt too wide) in paragraph at lines 101--101
 []  
  []
 
 File: ./style/images/background-slide.pdf Graphic file (type pdf)
 <use ./style/images/background-slide.pdf>
 Package luatex.def Info: ./style/images/background-slide.pdf used on input line 
-99.
+101.
 (luatex.def)             Requested size: 364.2053pt x 273.168pt.
- [31
+
+Overfull \hbox (16.42795pt too wide) has occurred while \output is active
+  [][] [][][][][][][] [][][] [][][][][] [][][][][][] [][]  
+ []
+
+[31
 
 ]
-Overfull \hbox (16.5534pt too wide) in paragraph at lines 99--99
+Overfull \hbox (16.5534pt too wide) in paragraph at lines 101--101
 [] 
  []
 
 
-Overfull \hbox (53.22937pt too wide) in paragraph at lines 99--99
+Overfull \hbox (53.22937pt too wide) in paragraph at lines 101--101
 []  
  []
 
 File: ./style/images/background-slide.pdf Graphic file (type pdf)
 <use ./style/images/background-slide.pdf>
 Package luatex.def Info: ./style/images/background-slide.pdf used on input line 
-99.
+101.
 (luatex.def)             Requested size: 364.2053pt x 273.168pt.
- [32
+
+Overfull \hbox (16.42795pt too wide) has occurred while \output is active
+  [][] [][][][][][][] [][][] [][][][][] [][][][][][] [][]  
+ []
+
+[32
 
 ]) (./main.toc
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
 )
 File: ./style/images/background-section.pdf Graphic file (type pdf)
-
-<use ./style/images/background-section.pdf>
+ <use ./style/images/background-section.pdf>
 Package luatex.def Info: ./style/images/background-section.pdf used on input lin
 e 159.
 (luatex.def)             Requested size: 364.21947pt x 273.15796pt.
@@ -2721,18 +2858,54 @@ File: ./style/images/background-slide.pdf Graphic file (type pdf)
 Package luatex.def Info: ./style/images/background-slide.pdf used on input line 
 45.
 (luatex.def)             Requested size: 364.2053pt x 273.168pt.
- [34
+
+Overfull \hbox (16.42795pt too wide) has occurred while \output is active
+  [][] [][][][][][][] [][][] [][][][][] [][][][][][] [][]  
+ []
+
+[34
 
 ]
 File: ./style/images/background-slide.pdf Graphic file (type pdf)
-
-<use ./style/images/background-slide.pdf>
+ <use ./style/images/background-slide.pdf>
 Package luatex.def Info: ./style/images/background-slide.pdf used on input line 
 98.
 (luatex.def)             Requested size: 364.2053pt x 273.168pt.
- [35
 
-])
+Overfull \hbox (16.42795pt too wide) has occurred while \output is active
+  [][] [][][][][][][] [][][] [][][][][] [][][][][][] [][]  
+ []
+
+[35
+
+] <./Figures/IStochastiSIS00.png, id=1093, 599.841pt x 384.4764pt>
+File: ./Figures/IStochastiSIS00.png Graphic file (type png)
+
+<use ./Figures/IStochastiSIS00.png>
+Package luatex.def Info: ./Figures/IStochastiSIS00.png used on input line 108.
+(luatex.def)             Requested size: 310.36107pt x 198.93741pt.
+
+Overfull \hbox (3.0712pt too wide) in paragraph at lines 108--108
+ [] 
+ []
+
+
+Overfull \vbox (25.63637pt too high) detected at line 108
+ []
+
+File: ./style/images/background-slide.pdf Graphic file (type pdf)
+<use ./style/images/background-slide.pdf>
+Package luatex.def Info: ./style/images/background-slide.pdf used on input line 
+108.
+(luatex.def)             Requested size: 364.2053pt x 273.168pt.
+
+Overfull \hbox (16.42795pt too wide) has occurred while \output is active
+  [][] [][][][][][][] [][][] [][][][][] [][][][][][] [][]  
+ []
+
+[36
+
+<./Figures/IStochastiSIS00.png>])
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 169.
@@ -2776,7 +2949,104 @@ File: ./style/images/background-section.pdf Graphic file (type pdf)
 Package luatex.def Info: ./style/images/background-section.pdf used on input lin
 e 169.
 (luatex.def)             Requested size: 364.21947pt x 273.15796pt.
- [36
+ [37
+
+]
+(./Perturbation/extinction.tex
+File: ./style/images/background-slide.pdf Graphic file (type pdf)
+ <use ./style/images/background-slide.pdf>
+Package luatex.def Info: ./style/images/background-slide.pdf used on input line 
+53.
+(luatex.def)             Requested size: 364.2053pt x 273.168pt.
+
+Overfull \hbox (16.42795pt too wide) has occurred while \output is active
+  [][] [][][][][][][] [][][] [][][][][] [][][][][][] [][]  
+ []
+
+[38
+
+] <./Figures/IStochastiSIS01.png, id=1159, 599.841pt x 384.4764pt>
+File: ./Figures/IStochastiSIS01.png Graphic file (type png)
+
+<use ./Figures/IStochastiSIS01.png>
+Package luatex.def Info: ./Figures/IStochastiSIS01.png used on input line 62.
+(luatex.def)             Requested size: 310.36107pt x 198.93741pt.
+
+Overfull \hbox (3.0712pt too wide) in paragraph at lines 62--62
+ [] 
+ []
+
+
+Overfull \vbox (25.63637pt too high) detected at line 62
+ []
+
+File: ./style/images/background-slide.pdf Graphic file (type pdf)
+<use ./style/images/background-slide.pdf>
+Package luatex.def Info: ./style/images/background-slide.pdf used on input line 
+62.
+(luatex.def)             Requested size: 364.2053pt x 273.168pt.
+
+Overfull \hbox (16.42795pt too wide) has occurred while \output is active
+  [][] [][][][][][][] [][][] [][][][][] [][][][][][] [][]  
+ []
+
+[39
+
+<./Figures/IStochastiSIS01.png>]) (./Perturbation/persistence.tex
+Overfull \hbox (12.35956pt too wide) in paragraph at lines 68--68
+[] 
+ []
+
+File: ./style/images/background-slide.pdf Graphic file (type pdf)
+<use ./style/images/background-slide.pdf>
+Package luatex.def Info: ./style/images/background-slide.pdf used on input line 
+68.
+(luatex.def)             Requested size: 364.2053pt x 273.168pt.
+
+Overfull \hbox (16.42795pt too wide) has occurred while \output is active
+  [][] [][][][][][][] [][][] [][][][][] [][][][][][] [][]  
+ []
+
+[40
+
+] <./Figures/IStochastiSIS02.png, id=1219, 599.841pt x 379.4175pt>
+File: ./Figures/IStochastiSIS02.png Graphic file (type png)
+
+<use ./Figures/IStochastiSIS02.png>
+Package luatex.def Info: ./Figures/IStochastiSIS02.png used on input line 77.
+(luatex.def)             Requested size: 310.36107pt x 196.31981pt.
+
+Overfull \hbox (3.0712pt too wide) in paragraph at lines 77--77
+ [] 
+ []
+
+
+Overfull \vbox (23.01877pt too high) detected at line 77
+ []
+
+File: ./style/images/background-slide.pdf Graphic file (type pdf)
+<use ./style/images/background-slide.pdf>
+Package luatex.def Info: ./style/images/background-slide.pdf used on input line 
+77.
+(luatex.def)             Requested size: 364.2053pt x 273.168pt.
+
+Overfull \hbox (16.42795pt too wide) has occurred while \output is active
+  [][] [][][][][][][] [][][] [][][][][] [][][][][][] [][]  
+ []
+
+[41
+
+<./Figures/IStochastiSIS02.png>]) (./main.toc
+LaTeX Info: Redefining \. on input line 1.
+LaTeX Info: Redefining \% on input line 1.
+)
+File: ./style/images/background-section.pdf Graphic file (type pdf)
+
+<use ./style/images/background-section.pdf>
+Package luatex.def Info: ./style/images/background-section.pdf used on input lin
+e 172.
+(luatex.def)             Requested size: 364.21947pt x 273.15796pt.
+ [42
 
 ]
 \tf@nav=\write10
@@ -2788,16 +3058,16 @@ e 169.
 \tf@snm=\write12
 
 \openout12 = main.snm
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 170.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 170.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 174.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 174.
  (./main.aux
 LaTeX Info: Redefining \. on input line 25.
 LaTeX Info: Redefining \% on input line 25.
 )
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 170.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 170.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 174.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 174.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: D11A1CBAA844A4A87553CCBDEAF9B6A9;259.
+(rerunfilecheck)             Checksum: 3BA951CEFFCB6F2D533D871DABD6D27B;299.
 
 
 LaTeX Font Warning: Size substitutions with differences
@@ -2806,16 +3076,16 @@ LaTeX Font Warning: Size substitutions with differences
 )
 
 Here is how much of LuaTeX's memory you used:
- 53618 strings out of 494577
+ 53747 strings out of 494577
  100000,1648299 words of node,token memory allocated
- 20629 words of node memory still in use:
-   121 hlist, 15 vlist, 6 rule, 15 disc, 5 local_par, 4 math, 1925 glue, 30 kern
-, 18 penalty, 118 glyph, 818 attribute, 59 glue_spec, 818 attribute_list, 3 writ
-e, 190 pdf_literal, 17 pdf_start_link, 17 pdf_end_link, 17 pdf_action, 62 pdf_co
-lorstack nodes
-   avail lists: 1:1,2:1668,3:485,4:290,5:411,6:713,7:674,8:176,9:804,10:9,11:101
+ 24672 words of node memory still in use:
+   155 hlist, 13 vlist, 6 rule, 14 disc, 5 local_par, 2 math, 2285 glue, 31 kern
+, 16 penalty, 105 glyph, 1044 attribute, 59 glue_spec, 1044 attribute_list, 3 wr
+ite, 274 pdf_literal, 24 pdf_start_link, 24 pdf_end_link, 24 pdf_action, 78 pdf_
+colorstack nodes
+   avail lists: 1:1,2:2078,3:578,4:306,5:424,6:743,7:795,8:184,9:848,10:9,11:102
 
- 54700 multiletter control sequences out of 65536+600000
+ 54737 multiletter control sequences out of 65536+600000
  296 fonts using 34579959 bytes
  69i,22n,114p,809b,929s stack positions out of 5000i,500n,10000p,200000b,100000s
 </usr/share/texlive/texmf-dist/fonts/truetype/google/noto/NotoSans-Italic.ttf></
@@ -2830,10 +3100,10 @@ public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
 amsfonts/symbols/msam10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
 sfonts/symbols/msbm10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/rsfs
 /rsfs10.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/symbol/usyr.pfb>
-Output written on main.pdf (36 pages, 1822502 bytes).
+Output written on main.pdf (42 pages, 1960697 bytes).
 
-PDF statistics: 920 PDF objects out of 1000 (max. 8388607)
- 814 compressed objects within 9 object streams
- 84 named destinations out of 1000 (max. 131072)
- 48 words of extra memory for PDF output out of 10000 (max. 10000000)
+PDF statistics: 1315 PDF objects out of 1440 (max. 8388607)
+ 1187 compressed objects within 12 object streams
+ 97 named destinations out of 1000 (max. 131072)
+ 56 words of extra memory for PDF output out of 10000 (max. 10000000)
 

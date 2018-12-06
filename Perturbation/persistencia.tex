@@ -1,0 +1,75 @@
+\begin{frame}
+    \frametitle{Persistencia}
+        \begin{textblock*}{62mm}(1mm, 25mm)
+            \begin{yellowbox}{Teorema (Persistencia)}
+                \begin{list}{\bullet}{}
+                    \item
+                        $
+                            \displaystyle
+                            R_0 ^ S := R_0 ^D
+                            - \frac{\sigma ^ 2}{2(\mu + \gamma)} > 1
+                        $
+                \end{list}
+                \tcblower
+                para toda $I(0)\in (0, N)$
+                \begin{align*}
+                    \limsup_{t \to \infty} 
+                        \frac{1}{t} \log I(t)
+                        &
+                        \geq
+                        \varepsilon,  \quad c.s.
+                    \\
+                    \liminf_{t \to \infty}
+                        \frac{1}{t} \log I(t)
+                        &
+                        \leq
+                        \varepsilon,  \quad c.s.
+                \end{align*}
+            \end{yellowbox}
+        \end{textblock*}
+        \begin{textblock*}{62mm}(65mm, 25mm)
+            \begin{align*}
+                dI(t) &= 
+                    I(t)
+                    \left\{
+                        [
+                            \beta (N - I(t))
+                            -\mu - \gamma
+                        ]
+                        dt
+                    \right.
+                    \\
+                     &+
+                    \left.
+                        \sigma (N-I(t))
+                        dB_t
+                    \right\}
+                    \tag{\star}
+            \end{align*}
+           \begin{bluebox}{$R_0 ^ D: \beta N /(\mu + \gamma)$}
+                \begin{align*}
+                    R_0 ^ D & < 1
+                    \ \Rightarrow
+                        \lim_{t \to \infty}
+                            I(t) = 0
+                    \\
+                    R_0 ^ D & > 1
+                    \ \Rightarrow
+                        \lim_{t \to \infty}
+                            I(t) = 
+                            N
+                            \left(
+                                1 -
+                                \frac{1}{R_0 ^ D}
+                            \right)
+                \end{align*}
+            \end{bluebox}
+        \end{textblock*}
+\end{frame}
+%    \begin{textblock*}{65mm}(1mm, 25mm)
+%        \begin{greenbox}{Def. Persistencia en media}
+%            $
+%                \displaystyle
+%                \liminf_{t \to \infty} I(t)$  
+%        \end{greenbox}
+%    \end{textblock*}

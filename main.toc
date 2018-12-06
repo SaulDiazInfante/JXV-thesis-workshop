@@ -2,4 +2,5 @@
 \beamer@sectionintoc {1}{Introducci\'on}{2}{0}{1}
 \beamer@sectionintoc {2}{Perturbaci\'on con MB}{23}{0}{2}
 \beamer@sectionintoc {3}{Propiedades del proceso souluci\'on}{33}{0}{3}
-\beamer@sectionintoc {4}{Umbral: $ R_0 ^ S := R_0 ^ D -f(\sigma , \cdot ) $ }{36}{0}{4}
+\beamer@sectionintoc {4}{Umbral: $ R_0 ^ S := R_0 ^ D -f(\sigma , \cdot ) $ }{37}{0}{4}
+\beamer@sectionintoc {5}{Ideas}{42}{0}{5}
